@@ -1,0 +1,26 @@
+/**
+* init
+*/
+@import "./functions.scss";
+@import "./variables.scss";
+@import "./reset.scss";
+
+/**
+* custom elements
+*/
+@import "./buttons.scss";
+@import "./texts.scss";
+@import "./cards.scss";
+@import "./forms.scss";
+
+/**
+* components
+*/
+@import "../components/header.scss";
+@import "../components/sectionHome.scss";
+@import "../components/socialsBar.scss";
+@import "../components/sectionWhoWeAre.scss";
+@import "../components/sectionWhatWeOffer.scss";
+@import "../components/sectionOurPricing.scss";
+@import "../components/sectionGetNews.scss";
+@import "../components/footer.scss";

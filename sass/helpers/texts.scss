@@ -1,0 +1,53 @@
+.title {
+    font-family: $font-family-title;
+    font-size: $font-size-xxxx-large;
+    font-weight: $font-weight-medium;
+    color: $color-grey-5;
+    text-transform: capitalize;
+
+    &__large {
+        @extend .title;
+        font-size: $font-size-xxxxx-large;
+        font-weight: $font-weight-extra-bold;
+        color: $color-grey-5;
+        text-transform: uppercase;
+        letter-spacing: rem(5);
+    }
+    &__light {
+        @extend .title;
+        font-size: $font-size-xxx-large;
+        font-weight: $font-weight-light;
+        text-transform: uppercase;
+        letter-spacing: rem(2);
+    }
+}
+
+.text {
+    font-family: $font-family-text;
+    font-weight: $font-weight-light;
+    font-size: $font-size-regular;
+    color: $color-grey-3;
+
+    &__uppercase {
+        @extend .text;
+        text-transform: uppercase;
+    }
+}
+
+.label {
+    font-family: $font-family-text;
+    font-weight: $font-weight-regular;
+    font-size: $font-size-large;
+    color: $color-grey-5;
+    text-transform: capitalize;
+
+    &-primary {
+        @extend .label;
+        color: $color-primary-light;
+
+        &__uppercase {
+            @extend .label-primary;
+            text-transform: uppercase;
+        }
+    }
+}

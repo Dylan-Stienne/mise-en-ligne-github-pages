@@ -1,0 +1,19 @@
+section[getNews] {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: rem(50) 0 0 0;
+
+    .form{
+        margin: rem(50);
+    }
+
+    h2{
+        font-family: $font-family-title;
+        font-weight: $font-weight-light;
+        font-size: $font-size-x-large;
+        color: $color-grey-4;
+    }
+}

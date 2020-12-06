@@ -1,0 +1,44 @@
+.btn {
+    width: fit-content;
+    padding: rem(13) rem(32);
+    background-image: $gradient-primary-to-right;
+    border-radius: $border-radius-round;
+    text-align: center;
+    color: $color-grey-1;
+    background-color: transparent;
+    text-transform: uppercase;
+    font-size: $font-size-regular;
+    border: 1px solid transparent;
+    outline: none;
+
+    &:hover {
+        cursor: pointer;
+    }
+
+    &-primary {
+        @extend .btn;
+
+        &__small {
+            @extend .btn-primary;
+            padding: rem(8) rem(18);
+            font-size: $font-size-x-small;
+        }
+
+        &__capitalize {
+            @extend .btn-primary;
+            text-transform: capitalize;
+        }
+    }
+
+    &-outline {
+        @extend .btn;
+        background-image: none;
+        color: $color-grey-4;
+        border: 1px solid $color-primary-dark;
+
+        &__capitalize {
+            @extend .btn-outline;
+            text-transform: capitalize;
+        }
+    }
+}

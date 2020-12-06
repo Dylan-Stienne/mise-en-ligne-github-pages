@@ -1,0 +1,20 @@
+.form {
+    display: flex;
+    align-items: center;
+
+    label{
+        opacity: 0;
+    }
+    .input {
+        padding: rem(15);
+        padding-right: rem(150);
+        margin-right: rem(5);
+        background-color: $color-grey-1;
+        color: $color-grey-3;
+        border: none;
+        border-radius: $border-radius-small;
+    }
+    .input::placeholder {
+        color: $color-grey-2;
+    }
+}

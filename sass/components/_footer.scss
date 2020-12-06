@@ -1,0 +1,102 @@
+footer {
+    width: 100%;
+    padding: rem(200) 0 rem(50) 0;
+    display: flex;
+    justify-content: center;
+    background-image: url("../../images/footer.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    .content {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 100%;
+        max-width: $max-width;
+        color: $color-grey-1;
+
+        div {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+
+            section {
+                margin: rem(50);
+                display: flex;
+                flex-direction: column;
+
+                h4 {
+                    font-family: $font-family-title;
+                    font-weight: $font-weight-regular;
+                    font-size: $font-size-large;
+                    color: $color-white;
+                    text-transform: capitalize;
+                    margin-bottom: rem(25);
+                }
+                li {
+                    font-family: $font-family-text;
+                    font-weight: $font-weight-extra-light;
+                    font-size: $font-size-regular;
+                    text-transform: capitalize;
+                    margin-bottom: rem(5);
+                }
+
+                &#foot-1 {
+                    font-family: $font-family-title;
+                    font-weight: $font-weight-light;
+                    display: flex;
+                    text-align: center;
+
+                    h4 {
+                        font-size: $font-size-xxx-large;
+                    }
+                    span {
+                        font-size: $font-size-x-large;
+                        margin-bottom: rem(30);
+                    }
+                    .socials {
+                        display: flex;
+                        justify-content: center;
+
+                        li {
+                            margin: 0 rem(10);
+                        }
+                    }
+                }
+                &#foot-3 {
+                    li {
+                        width: 110%;
+                        display: flex;
+                        justify-content: space-between;
+                    }
+                }
+                &#foot-4 {
+                    li {
+                        width: 110%;
+                        display: flex;
+                        align-items: center;
+                        margin-bottom: rem(10);
+
+                        img {
+                            width: rem(15);
+                            height: rem(15);
+                            margin-right: rem(10);
+                        }
+
+                        &:last-child {
+                            margin-top: rem(25);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: $responsive-size-mobile) {
+    footer {
+        background-size: 500% 120%;
+        background-position: bottom;
+    }
+}

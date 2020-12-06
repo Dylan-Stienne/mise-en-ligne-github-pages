@@ -1,0 +1,24 @@
+{
+  "name": "front-gulp-sass---dw1-dylan-stienne",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IIM-Creative-Technology/front-gulp-sass---dw1-Dylan-Stienne.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IIM-Creative-Technology/front-gulp-sass---dw1-Dylan-Stienne/issues"
+  },
+  "homepage": "https://github.com/IIM-Creative-Technology/front-gulp-sass---dw1-Dylan-Stienne#readme",
+  "dependencies": {
+    "browser-sync": "^2.26.13",
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.1.0"
+  }
+}

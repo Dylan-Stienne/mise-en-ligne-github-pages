@@ -1,0 +1,6 @@
+/**
+* Convert px to rem
+*/
+@function rem($pxValue, $font-size: 15){
+    @return $pxValue / $font-size * 1rem;
+  }

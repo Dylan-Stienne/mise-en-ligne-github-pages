@@ -1,0 +1,36 @@
+section[whatWeOffer] {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: rem(200);
+
+    .content {
+        display: flex;
+        width: 100%;
+        max-width: $max-width;
+        flex-direction: column;
+        padding:  0 rem(100);
+
+        .cards-list{
+            background-image: url("../../images/background-service.png");
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-position: center;
+        }
+    }
+}
+
+@media screen and (max-width: $responsive-size-mobile) {
+    section[whatWeOffer] {
+        margin-bottom: rem(50);
+
+        .content {
+            padding: rem(50);
+        }
+
+        article{
+            margin:rem(10);
+        }
+    }
+}
